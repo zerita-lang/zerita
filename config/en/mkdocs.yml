@@ -10,6 +10,7 @@ nav:
   - Dictionary: https://zerita-lang.github.io/dictionary/en/
   - Orthography: orthography.md
   - Articles: articles.md
+  - Nouns: nouns.md
 
 markdown_extensions:
   - pymdownx.highlight:

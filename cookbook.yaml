@@ -1,0 +1,23 @@
+$globals:
+  version: "8.1"
+
+build:
+  phony: true
+  commands:
+    - mike deploy --config-file=config/en/mkdocs.yml en
+    - mike set-default --config-file=config/en/mkdocs.yml en
+
+install:
+  phony: true
+  keep_ts: true
+  requires:
+    - uv.lock
+  commands:
+    - uv sync --frozen
+
+uv.lock:
+  update: true
+  requires:
+    - pyproject.toml
+  commands:
+    - uv lock

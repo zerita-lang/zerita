@@ -8,6 +8,7 @@ repo_url: https://github.com/zerita-lang/zerita/
 nav:
   - Home: index.md
   - Dictionary: https://zerita-lang.github.io/dictionary/en/
+  - Orthography: orthography.md
 
 markdown_extensions:
   - pymdownx.highlight:

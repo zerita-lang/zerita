@@ -11,6 +11,8 @@ nav:
   - Orthography: orthography.md
   - Articles: articles.md
   - Nouns: nouns.md
+  - Verbs:
+      - verbs/index.md
 
 markdown_extensions:
   - pymdownx.highlight:

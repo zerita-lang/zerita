@@ -9,6 +9,7 @@ nav:
   - Home: index.md
   - Dictionary: https://zerita-lang.github.io/dictionary/en/
   - Orthography: orthography.md
+  - Articles: articles.md
 
 markdown_extensions:
   - pymdownx.highlight:

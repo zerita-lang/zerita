@@ -13,6 +13,7 @@ nav:
   - Nouns: nouns.md
   - Verbs:
       - verbs/index.md
+      - Person and number: verbs/person.md
 
 markdown_extensions:
   - pymdownx.highlight:

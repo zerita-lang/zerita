@@ -16,6 +16,8 @@ nav:
       - Person and number: verbs/person.md
       - Tenses: verbs/tenses.md
       - Mood: verbs/mood.md
+  - Pronouns:
+      - pronouns/index.md
 
 markdown_extensions:
   - pymdownx.highlight:

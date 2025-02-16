@@ -18,6 +18,7 @@ nav:
       - Mood: verbs/mood.md
   - Pronouns:
       - pronouns/index.md
+      - Personal: pronouns/personal.md
 
 markdown_extensions:
   - pymdownx.highlight:

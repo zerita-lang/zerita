@@ -13,6 +13,7 @@ nav:
   - Nouns: nouns.md
   - Verbs:
       - verbs/index.md
+      - Types: verbs/types.md
       - Person and number: verbs/person.md
       - Tenses: verbs/tenses.md
       - Mood: verbs/mood.md

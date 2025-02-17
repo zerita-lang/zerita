@@ -21,6 +21,7 @@ nav:
       - pronouns/index.md
       - Personal: pronouns/personal.md
   - Questions: questions.md
+  - Negation: negation.md
 
 markdown_extensions:
   - pymdownx.highlight:

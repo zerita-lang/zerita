@@ -22,6 +22,7 @@ nav:
       - Personal: pronouns/personal.md
   - Conditionals:
       - conditionals/index.md
+      - If clause: conditionals/if.md
   - Questions: questions.md
   - Negation: negation.md
 

@@ -20,6 +20,8 @@ nav:
   - Pronouns:
       - pronouns/index.md
       - Personal: pronouns/personal.md
+  - Conditionals:
+      - conditionals/index.md
   - Questions: questions.md
   - Negation: negation.md
 

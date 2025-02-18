@@ -23,6 +23,7 @@ nav:
   - Conditionals:
       - conditionals/index.md
       - If clause: conditionals/if.md
+      - Then/else clause: conditionals/then.md
   - Questions: questions.md
   - Negation: negation.md
 

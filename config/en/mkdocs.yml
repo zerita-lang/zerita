@@ -7,6 +7,7 @@ repo_url: https://github.com/zerita-lang/zerita/
 
 nav:
   - Home: index.md
+  - Dictionary: https://zerita-lang.github.io/dictionary/en/
 
 markdown_extensions:
   - pymdownx.highlight:

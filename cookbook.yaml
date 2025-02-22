@@ -5,6 +5,7 @@ build:
   phony: true
   commands:
     - mike deploy --config-file=config/en/mkdocs.yml en
+    - mike deploy --config-file=config/el/mkdocs.yml el
     - mike set-default --config-file=config/en/mkdocs.yml en
 
 install:

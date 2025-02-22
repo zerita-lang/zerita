@@ -1,35 +1,12 @@
-site_name: zerita
-docs_dir: "../../docs/en"
-site_dir: "../../site/en"
+site_name: Ζερίτα
+docs_dir: "../../docs/el"
+site_dir: "../../site/el"
 
 repo_name: zerita-lang/zerita
 repo_url: https://github.com/zerita-lang/zerita/
 
 nav:
-  - Home: index.md
-  - Dictionary: https://zerita-lang.github.io/dictionary/en/
-  - Orthography: orthography.md
-  - Articles: articles.md
-  - Nouns: nouns.md
-  - Adjectives: adjectives.md
-  - Adverbs: adverbs.md
-  - Colours: colours.md
-  - Verbs:
-      - verbs/index.md
-      - Types: verbs/types.md
-      - Person and number: verbs/person.md
-      - Tenses: verbs/tenses.md
-      - Mood: verbs/mood.md
-  - Pronouns:
-      - pronouns/index.md
-      - Personal: pronouns/personal.md
-  - Conditionals:
-      - conditionals/index.md
-      - If clause: conditionals/if.md
-      - Then/else clause: conditionals/then.md
-  - Prepositions: prepositions.md
-  - Questions: questions.md
-  - Negation: negation.md
+  - Αρχική: index.md
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -41,7 +18,7 @@ markdown_extensions:
 
 theme:
   name: material
-  language: en
+  language: el
 
   icon:
     repo: fontawesome/brands/github
@@ -51,13 +28,13 @@ theme:
       scheme: default
       toggle:
         icon: material/brightness-7
-        name: Switch to dark mode
+        name: Αλλαγή σε σκοτεινή λειτουργία
 
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       toggle:
         icon: material/brightness-4
-        name: Switch to light mode
+        name: Αλλαγή σε φωτεινή λειτουργία
 
   features:
     - content.code.annotate
@@ -72,7 +49,7 @@ theme:
 
 plugins:
   - search:
-      lang: en
+      lang: el
 
 extra:
   alternate:

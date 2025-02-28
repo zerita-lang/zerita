@@ -15,9 +15,9 @@ nav:
           # - Φράσεις: overview/syntax/phrases.md
           # - Λέξεις και λεξήματα: overview/syntax/words.md
       - Ορθογραφία: overview/orthography.md
-  # - Προσδιοριστικά:
-  #     - determinatives/index.md
-  #     - Άρθρα: determinatives/articles.md
+  - Προσδιοριστικά:
+      - determinatives/index.md
+      - Άρθρα: determinatives/articles.md
   #     - Δεικτικά: determinatives/demonstratives.md
   #     - Κτητικά: determinatives/possessives.md
   #     - Ποσοδείκτες: determinatives/quantifiers.md

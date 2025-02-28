@@ -1,0 +1,118 @@
+site_name: Ζερίτα
+docs_dir: "../../docs/el"
+site_dir: "../../site/el"
+
+repo_name: zerita-lang/zerita
+repo_url: https://github.com/zerita-lang/zerita/
+
+nav:
+  - Αρχική: index.md
+  - Επισκόπηση της ζερίτα:
+      - overview/index.md
+      - Λεξικό: https://zerita-lang.github.io/dictionary/el/
+      - Συντακτικό:
+          - overview/syntax/index.md
+          # - Φράσεις: overview/syntax/phrases.md
+          # - Λέξεις και λεξήματα: overview/syntax/words.md
+      - Ορθογραφία: overview/orthography.md
+  # - Προσδιοριστικά:
+  #     - determinatives/index.md
+  #     - Άρθρα: determinatives/articles.md
+  #     - Δεικτικά: determinatives/demonstratives.md
+  #     - Κτητικά: determinatives/possessives.md
+  #     - Ποσοδείκτες: determinatives/quantifiers.md
+  #     - Αριθμητικά: determinatives/numerals.md
+  # - Ουσιαστικά:
+  #     - nouns/index.md
+  #     - Γένος: nouns/gender.md
+  #     - Κλάση: nouns/class.md
+  #     - Αριθμός: nouns/number.md
+  #     - Πτώσεις: nouns/cases.md
+  #     - Αντωνυμίες:
+  #         - nouns/pronouns/index.md
+  #         - Προσωπικές αντωνυμίες: nouns/pronouns/personal.md
+  #     - Πίνακες κλίσης: nouns/declension.md
+  # - Ρήματα:
+  #     - verbs/index.md
+  #     - Τύπος: verbs/type.md
+  #     - Πρόσωπο και αριθμός: verbs/person.md
+  #     - Χρόνος: verbs/tense.md
+  #     - Έγκλιση: verbs/mood.md
+  #     - Πίνακες κλίσης: verbs/declension.md
+  # - Περιγραφή:
+  #     - description/index.md
+  #     - Επίθετα:
+  #         - description/adjectives/index.md
+  #         - Βαθμός: description/adjectives/grade.md
+  #     - Επιρρήματα:
+  #         - description/adverbs/index.md
+  #         - Παράγωγα επιρρήματα: description/adverbs/derived.md
+  # - Συνδέσεις:
+  #     - connection/index.md
+  #     - Συντονισμός: connection/coordination.md
+  #     - Υποταγή: connection/subordination.md
+  #     - Σχετικές προτάσεις: connection/relative.md
+  #     - Προθέσεις: connection/prepositions.md
+  #     - Μόρια: connection/particles.md
+  # - Υποθετικές προτάσεις:
+  #     - conditionals/index.md
+  #     - Υπόθεση: conditionals/antecedent.md
+  #     - Απόδοση: conditionals/consequent.md
+  # - Ερωτήσεις:
+  #     - questions/index.md
+  #     - Ερωτηματικά: questions/interrogatives.md
+  #     - Επιφωνήματα: questions/interjection.md
+  #     - Άρνηση: questions/negation.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      use_pygments: true
+  - admonition
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.snippets
+
+theme:
+  name: material
+  language: el
+
+  icon:
+    repo: fontawesome/brands/github
+
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Αλλαγή σε σκοτεινή λειτουργία
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Αλλαγή σε φωτεινή λειτουργία
+
+  features:
+    - content.code.annotate
+    - content.code.copy
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.top
+    - navigation.tracking
+    - search
+    - search.suggest
+    - search.share
+
+plugins:
+  - search:
+      lang: el
+
+extra:
+  alternate:
+    - name: 🇬🇧 English
+      link: /zerita/en/
+      lang: en
+    - name: 🇬🇷 Ελληνικά
+      link: /zerita/el/
+      lang: el
